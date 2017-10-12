@@ -1,0 +1,28 @@
+### prepare environment
+
+# install kicad
+sudo add-apt-repository --yes ppa:js-reynaud/kicad-4
+sudo apt update
+sudo apt install kicad
+
+# install qeda
+sudo apt-get install npm nodejs-legacy
+git clone https://github.com/qeda/qeda
+(cd qeda && sudo npm install -g qeda)
+
+# install external kicad libraries
+
+KICAD_LIBS_PATH=[path_to_kicad_libs_dir]
+( mkdir -p $KICAD_LIBS_PATH && cd $KICAD_LIBS_PATH && \
+	git clone https://github.com/KiCad/kicad-library && \
+	git clone https://github.com/engstad/Walter && \
+	git clone https://github.com/metacollin/kicad-gigalib
+)
+
+# generate kicad library
+rm -rf lib/.qeda.yaml lib/kicad/
+( cd lib && ../scripts/regen_lib.sh )
+./scripts/refresh_wrl.sh [path_to_kicad_lib_dir]
+
+./scripts/edit_sch.sh boards/lm2596-board
+./scripts/edit_pcb.sh boards/lm2596-board
