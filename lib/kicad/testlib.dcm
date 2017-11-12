@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0 Date: 12/11/2017 17:45:23
+#
+$CMP LM2596S
+D Step-Down Voltage Regulator
+K IC, Analog, Step-down, Regulator
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP 3296
+D 3/8" Square Trimpot Trimming Potentiometer
+K Resistor, 1/2W
+F https://www.bourns.com/pdfs/3296.pdf
+$ENDCMP
+#
+$CMP R-CF-25
+D Axial resistor DIN 0207 (6.5 x 2.5 mm)
+K Resistor, 1/4W
+F https://www.vishay.com/docs/28766/mbxsma.pdf
+$ENDCMP
+#
+$CMP R0805
+D Chip resistor 2x1.25 mm
+K Resistor, 1/8W
+$ENDCMP
+#
+$CMP CP-D
+D Polarized capacitor 7.3x4.3 mm (D case)
+K Capacitor
+$ENDCMP
+#
+$CMP B82477G4
+D SMT power inductor
+K Inductor
+$ENDCMP
+#
+$CMP B340A
+D 3.0A Surface Mount Schottky Barrier Rectifier
+K Diode, Schottky
+F https://www.diodes.com/assets/Datasheets/ds30891.pdf
+$ENDCMP
+#
+$CMP SP-TH-3
+D Through-hole Solder Point, 3 mm diameter
+K Test point
+$ENDCMP
+#
+# End Doc Library
