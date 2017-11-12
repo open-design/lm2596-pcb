@@ -1,0 +1,20 @@
+name: 3296
+description: 3/8" Square Trimpot Trimming Potentiometer
+datasheet: https://www.bourns.com/pdfs/3296.pdf
+variations: W
+keywords: Resistor, 1/2W
+
+schematic:
+  symbol: resistor
+  options: trimpot
+
+housing@W:
+  pattern: custom
+  bodyWidth: 4.83
+  bodyLength: 9.53
+  height: 10.03
+
+  holeDiameter: 1.1
+  pitch: 2.54
+  rowCount: 3
+  columnCount: 1

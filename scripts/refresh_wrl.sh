@@ -60,3 +60,8 @@ patch_kicad_mod ${KICAD_LIBRARY}/modules/packages3d/Resistors_SMD.3dshapes/R_080
 	RESC2013X65N "0 0 0" "1 1 1" "0 0 90"
 patch_kicad_mod ${KICAD_LIBRARY}/modules/packages3d/Capacitors_SMD.3dshapes/CP_Elec_6.3x7.7.wrl \
 	CAPPM7343X310N "0 0 0" "1 1 1" "0 0 -90"
+
+patch_kicad_mod ${WALTER_LIBRARY}/packages3d/walter/pth_resistors/rc05.wrl \
+	RESISTOR_R-CF-25 "0 0 0" "1 1 1" "0 0 90"
+patch_kicad_mod ${WALTER_LIBRARY}/packages3d/walter/pth_resistors/trimmer_diplohm_p94.wrl \
+	BOURNS_3296 "0 0 0" "1 1 1" "0 0 0"

@@ -1,0 +1,18 @@
+name: R-CF-25
+description: Axial resistor DIN 0207 (6.5 x 2.5 mm)
+datasheet: https://www.vishay.com/docs/28766/mbxsma.pdf
+keywords: Resistor, 1/4W
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: custom
+  bodyWidth: 2.5
+  bodyLength: 6.2
+  height: 2.5
+
+  holeDiameter: 1.1
+  pitch: 10.16
+  rowCount: 2
+  columnCount: 1

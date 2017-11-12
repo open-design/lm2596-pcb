@@ -6,6 +6,8 @@ qeda reset
 
 qeda add ti/lm2596
 
+qeda add bourns/3296
+qeda add resistor/r-cf-25
 qeda add resistor/r0805
 
 qeda add capacitor/cp-d
